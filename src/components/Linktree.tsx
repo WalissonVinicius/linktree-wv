@@ -113,7 +113,7 @@ const Linktree = () => {
             </p>
 
             <p className="text-gray-500 text-xs sm:text-sm mb-3 sm:mb-4 hover:text-gray-400 transition-colors duration-300 cursor-default">
-              21 anos • Formado em Ads
+              22 anos • Formado em Ads
             </p>
 
             <p className="text-gray-400 text-xs sm:text-sm max-w-xs sm:max-w-sm mx-auto hover:text-gray-300 transition-colors duration-300 cursor-default leading-relaxed">
