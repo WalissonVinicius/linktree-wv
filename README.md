@@ -1,101 +1,44 @@
-# Linktree - Walisson Vinicius
+# 🌐 Linktree — Walisson Vinicius
 
-Um linktree moderno e responsivo desenvolvido com React, TypeScript e Tailwind CSS.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/93d7ccf9-3b86-4503-a825-077e160485df" />
 
-## 🚀 Deploy na Vercel
+Um **linktree** moderno, animado e responsivo para concentrar seus links, redes e contatos.
 
-### Opção 1: Deploy via GitHub (Recomendado)
+🔗 **Live:** veja o link em **About → Website** do repositório
+🧰 **Stack:** Vite (React) · TypeScript · Tailwind CSS
 
-1. **Faça push do código para o GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/seu-usuario/seu-repositorio.git
-   git push -u origin main
-   ```
+---
 
-2. **Conecte na Vercel**
-   - Acesse [vercel.com](https://vercel.com)
-   - Faça login com sua conta GitHub
-   - Clique em "New Project"
-   - Importe seu repositório
-   - A Vercel detectará automaticamente que é um projeto Vite/React
+## ✨ Recursos
+- 📱 **Responsivo** (mobile-first)
+- 🪄 Animações sutis de hover e foco
+- ⚙️ **Configuração simples** via um único componente
 
-### Opção 2: Deploy via CLI da Vercel
+## 🧩 Personalização rápida
+Edite o componente principal (ex.: `src/components/Linktree.tsx`) e ajuste:
+- **Links** (array `socialLinks`)
+- **Nome, bio e avatar** (substitua a imagem em `public/` se aplicável)
+- **Cores/tema** via classes Tailwind
 
-1. **Instale a CLI da Vercel**
-   ```bash
-   npm i -g vercel
-   ```
+## 🚀 Como rodar localmente
+Requisitos: **Node 18+**
 
-2. **Faça login**
-   ```bash
-   vercel login
-   ```
+```bash
+npm install
+npm run dev
+# http://localhost:5173
 
-3. **Deploy**
-   ```bash
-   vercel
-   ```
-
-## 🛠️ Tecnologias
-
-- **React 18** - Framework JavaScript
-- **TypeScript** - Tipagem estática
-- **Vite** - Build tool
-- **Tailwind CSS** - Framework CSS
-- **Lucide React** - Ícones
-- **Inter Font** - Tipografia
-
-## 📱 Features
-
-- ✅ Design responsivo
-- ✅ Animações suaves
-- ✅ Gradientes interativos
-- ✅ Efeitos hover
-- ✅ Otimizado para mobile
-- ✅ Performance otimizada
-
-## 🎨 Personalização
-
-### Links Sociais
-Edite o array `socialLinks` no arquivo `src/components/Linktree.tsx`:
-
-```typescript
-const socialLinks = [
-  {
-    icon: SpotifyIcon,
-    href: 'https://open.spotify.com/user/seu-user',
-    label: 'Spotify',
-    color: 'from-green-500 to-green-600',
-    hoverColor: 'hover:from-green-600 hover:to-green-700',
-    shadowColor: 'hover:shadow-green-500/30'
-  },
-  // Adicione mais links...
-];
 ```
 
-### Informações Pessoais
-Edite as informações no componente `Linktree.tsx`:
+## ☁️ Deploy
 
-```typescript
-<h1>Seu Nome</h1>
-<p>Sua Descrição</p>
-<p>Sua Idade • Sua Formação</p>
-```
-
-### Foto de Perfil
-Substitua o arquivo `public/walisson.jpeg` pela sua foto.
-
-## 🚀 Scripts Disponíveis
-
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Preview do build
-- `npm run lint` - Executa o linter
+- **Vercel** (SPA) ou provedor similar.
+- Ative **pré-render**/cache estático para melhor performance.
 
 ## 📄 Licença
 
-MIT License 
+MIT — veja `LICENSE`.
+
+## 🤝 Contribuindo
+
+Sinta-se à vontade para abrir Issues/PRs com novos temas e layouts.
