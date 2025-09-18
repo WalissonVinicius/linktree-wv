@@ -54,7 +54,7 @@ const Linktree = () => {
     },
     {
       icon: ExternalLink,
-      href: 'https://walisson.discloud.app/',
+      href: 'https://www.walisson.dev/',
       label: 'Meu Portfólio',
       color: 'from-purple-500 to-indigo-600',
       hoverColor: 'hover:from-purple-600 hover:to-indigo-700',
@@ -95,11 +95,11 @@ const Linktree = () => {
           <div className={`mb-6 sm:mb-8 pt-4 sm:pt-8 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
             <div className="relative group flex justify-center">
-              <div className="w-24 sm:w-28 h-24 sm:h-28 rounded-full mx-auto mb-4 sm:mb-6 overflow-hidden border-4 bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center transition-all duration-500 hover:scale-110 hover:rotate-6 hover:shadow-2xl hover:shadow-purple-500/30">
+              <div className="w-24 sm:w-28 h-24 sm:h-28 rounded-full mx-auto mb-4 sm:mb-6 overflow-hidden bg-gradient-to-r from-blue-500 to-purple-500 p-1 transition-all duration-500 hover:scale-110 hover:rotate-6 hover:shadow-2xl hover:shadow-purple-500/30">
                 <img
-                  src="/walisson.jpeg"
+                  src="/wv.jpg"
                   alt="Foto de perfil de Walisson Vinicius"
-                  className="w-20 sm:w-24 h-20 sm:h-24 rounded-full object-cover"
+                  className="w-full h-full rounded-full object-cover"
                 />
               </div>
             </div>
