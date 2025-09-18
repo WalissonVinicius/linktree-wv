@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Github, ExternalLink, Twitter, Instagram } from 'lucide-react';
+import { Github, ExternalLink, Twitter, Instagram, Linkedin } from 'lucide-react';
 import SpotifyIcon from './icons/SpotifyIcon';
 import TikTokIcon from './icons/TikTokIcon';
 
@@ -13,36 +13,20 @@ const Linktree = () => {
 
   const socialLinks = [
     {
-      icon: SpotifyIcon,
-      href: 'https://open.spotify.com/user/q4k7jlo2evlvw94kyxz0yxcps?si=dae39d6b5c6d4183',
-      label: 'Spotify',
-      color: 'from-green-500 to-green-600',
-      hoverColor: 'hover:from-green-600 hover:to-green-700',
-      shadowColor: 'hover:shadow-green-500/30'
+      icon: ExternalLink,
+      href: 'https://www.walisson.dev/',
+      label: 'Meu Portfólio',
+      color: 'from-purple-500 to-indigo-600',
+      hoverColor: 'hover:from-purple-600 hover:to-indigo-700',
+      shadowColor: 'hover:shadow-purple-500/30'
     },
     {
-      icon: Twitter,
-      href: 'https://x.com/SennXp',
-      label: 'Twitter (X)',
-      color: 'from-blue-500 to-blue-600',
-      hoverColor: 'hover:from-blue-600 hover:to-blue-700',
+      icon: Linkedin,
+      href: 'https://www.linkedin.com/in/walisson-vinicius-952abb205/',
+      label: 'LinkedIn',
+      color: 'from-blue-600 to-blue-700',
+      hoverColor: 'hover:from-blue-700 hover:to-blue-800',
       shadowColor: 'hover:shadow-blue-500/30'
-    },
-    {
-      icon: Instagram,
-      href: 'https://www.instagram.com/wv.sccp/',
-      label: 'Instagram',
-      color: 'from-pink-500 to-purple-600',
-      hoverColor: 'hover:from-pink-600 hover:to-purple-700',
-      shadowColor: 'hover:shadow-pink-500/30'
-    },
-    {
-      icon: TikTokIcon,
-      href: 'https://www.tiktok.com/@wv_sccp',
-      label: 'TikTok',
-      color: 'from-red-500 to-pink-500',
-      hoverColor: 'hover:from-red-600 hover:to-pink-600',
-      shadowColor: 'hover:shadow-red-500/30'
     },
     {
       icon: Github,
@@ -53,13 +37,21 @@ const Linktree = () => {
       shadowColor: 'hover:shadow-gray-500/30'
     },
     {
-      icon: ExternalLink,
-      href: 'https://www.walisson.dev/',
-      label: 'Meu Portfólio',
-      color: 'from-purple-500 to-indigo-600',
-      hoverColor: 'hover:from-purple-600 hover:to-indigo-700',
-      shadowColor: 'hover:shadow-purple-500/30'
-    }
+      icon: Instagram,
+      href: 'https://www.instagram.com/wv.sccp/',
+      label: 'Instagram',
+      color: 'from-pink-500 to-purple-600',
+      hoverColor: 'hover:from-pink-600 hover:to-purple-700',
+      shadowColor: 'hover:shadow-pink-500/30'
+    },
+    {
+      icon: SpotifyIcon,
+      href: 'https://open.spotify.com/user/q4k7jlo2evlvw94kyxz0yxcps?si=dae39d6b5c6d4183',
+      label: 'Spotify',
+      color: 'from-green-500 to-green-600',
+      hoverColor: 'hover:from-green-600 hover:to-green-700',
+      shadowColor: 'hover:shadow-green-500/30'
+    },
   ];
 
   return (
